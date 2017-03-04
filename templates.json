@@ -1,0 +1,10 @@
+[
+  {
+    "filename": "index.html",
+    "template": "./index.html.twig"
+  },
+  {
+    "filename": "templates/page.html",
+    "template": "./templates/page.html.twig"
+  }
+]

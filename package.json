@@ -1,0 +1,57 @@
+{
+  "name": "webpack2-static",
+  "version": "0.0.1",
+  "description": "Static website boilerplate with webpack2 using twig as html template engine and jeet with breakpoint for styling",
+  "main": "bundle.js",
+  "scripts": {
+    "start": "webpack --watch",
+    "build": "webpack -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webpack",
+    "webpack2",
+    "static",
+    "website",
+    "boilerplate",
+    "jeet",
+    "breakpoint",
+    "twig"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desero/webpack2-static.git"
+  },
+  "author": "desero",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.13.2",
+    "browser-sync": "^2.14.0",
+    "browser-sync-webpack-plugin": "^1.1.2",
+    "clean-webpack-plugin": "^0.1.10",
+    "copy-webpack-plugin": "^3.0.1",
+    "css-loader": "^0.26.2",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^4.5.0",
+    "sass-loader": "^6.0.2",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.7",
+    "webpack": "2.2"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "breakpoint-sass": "^2.7.1",
+    "extract-text-webpack-plugin": "^2.0.0",
+    "font-awesome": "^4.6.3",
+    "jeet": "^7.1.0",
+    "jquery": "^3.1.0",
+    "lodash": "^4.17.4",
+    "twig": "^1.10.4",
+    "twig-loader": "^0.3.0",
+    "webpack-px-to-rem": "^0.1.0"
+  }
+}
